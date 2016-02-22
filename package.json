@@ -1,14 +1,21 @@
 {
   "name": "intersection",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
-  "main": "intersection.js",
-  "scripts": {
-    "test": "jasmine-node ."
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Morgan",
+  "private": true,
   "devDependencies": {
-    "jasmine": "^2.4.1"
-  }
+    "babel": "~5.8.29",
+    "del": "~2.0.2",
+    "gulp": "~3.9.0",
+    "gulp-babel": "~5.3.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-jasmine": "~2.0.1",
+    "yargs": "~3.27.0"
+  },
+  "scripts": {},
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {}
 }
